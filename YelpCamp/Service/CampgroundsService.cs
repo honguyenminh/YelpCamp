@@ -8,7 +8,7 @@ public class CampgroundsService
 {
     private readonly IMongoCollection<Campground> _booksCollection;
     
-    public CampgroundsService(IOptions<MongoDBSetting> setting, ILogger<CampgroundsService> logger, MongoDBService db)
+    public CampgroundsService(IOptions<MongoDbSetting> setting, ILogger<CampgroundsService> logger, MongoDbService db)
     {
         // TODO: add additional logging here
         _booksCollection = db.Database.GetCollection<Campground>(setting.Value.CollectionName);

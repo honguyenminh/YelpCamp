@@ -10,9 +10,9 @@ builder.Services.AddControllers();
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-builder.Services.Configure<MongoDBSetting>(
+builder.Services.Configure<MongoDbSetting>(
     builder.Configuration.GetSection("CampgroundDatabase"));
-builder.Services.AddSingleton<MongoDBService>();
+builder.Services.AddSingleton<MongoDbService>();
 builder.Services.AddSingleton<CampgroundsService>();
 
 var app = builder.Build();

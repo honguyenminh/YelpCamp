@@ -1,6 +1,6 @@
 ﻿namespace YelpCamp.Models;
 
-public class MongoDBSetting
+public class MongoDbSetting
 {
     public string DatabaseName { get; set; } = null!;
 
