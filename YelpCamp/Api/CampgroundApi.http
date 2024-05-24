@@ -1,0 +1,15 @@
+@HostAddress = https://localhost:7125
+
+GET {{HostAddress}}/api/Campgrounds
+
+###
+
+POST {{HostAddress}}/api/Campgrounds
+Content-Type: application/json
+
+{
+    "title": "Fucking amazing camp",
+    "price": 2000000,
+    "description": "The best fucking camp",
+    "location": "Your mom's house"
+}

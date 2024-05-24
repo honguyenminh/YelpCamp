@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YelpCamp", "YelpCamp\YelpCamp.csproj", "{D8434802-A446-4FA5-A9B7-F09FC6E53CCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YelpCamp.SeedDb", "YelpCamp.SeedDb\YelpCamp.SeedDb.csproj", "{EAA102B2-AB7B-4476-AD79-E53E65CDDA5F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D8434802-A446-4FA5-A9B7-F09FC6E53CCB} = {D8434802-A446-4FA5-A9B7-F09FC6E53CCB}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8434802-A446-4FA5-A9B7-F09FC6E53CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8434802-A446-4FA5-A9B7-F09FC6E53CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8434802-A446-4FA5-A9B7-F09FC6E53CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8434802-A446-4FA5-A9B7-F09FC6E53CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA102B2-AB7B-4476-AD79-E53E65CDDA5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA102B2-AB7B-4476-AD79-E53E65CDDA5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA102B2-AB7B-4476-AD79-E53E65CDDA5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA102B2-AB7B-4476-AD79-E53E65CDDA5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
